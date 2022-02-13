@@ -6,8 +6,8 @@ document.getElementById('submit-btn').addEventListener('click', function () {
     // password.value='';
 
     if (email.value == 'asfe@gmail.com' && password.value == '1234') {
-        //window.location.href = 'banking.html';
-        console.log(email.innerText);
+        window.location.href = 'banking.html';
+
     }
     else {
         alert("wrong password or email");
